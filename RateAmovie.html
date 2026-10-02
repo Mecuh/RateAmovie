@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate a Movie</title>
+<Style>
+    body {
+        background-color: #da1a1a;
+        font-family: oldstandard tt, serif;
+    }
+</Style>
+</head>
+<body>
+<form>
+    <h1>Rate a Movie</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOLpTAG-gJMYZegrLoh8MhWMD4n2xznDQXndhpjAu0DA&s=10" alt="Movie" width="400" height="300">
+    <br>
+    <label for="movietitle">Title of the movie:</label>
+    <input type="text" id="moviet" name="movie" placeholder="Write the title">
+    <br>
+    <label for="genre"><b>Genre of the movie</b><label>
+    <br
+    <input type="checkbox" id="action" name="action" value="action">
+    <label for="action">Action</label>
+     <input type="checkbox" id="horror" name="horror" value="horror">
+    <label for="horror">Horror</label>
+     <input type="checkbox" id="romance" name="romance" value="romance">
+    <label for="romance">Romance</label>
+     <input type="checkbox" id="comedy" name="comedy" value="comedy">
+    <label for="comedy">Comedy</label>
+    <br>
+<label for="rating"><b>Rating:</b></label>
+<input type="radio" id="rating" name="rating" value="*">
+<label for="rating">★</label>
+<input type="radio" id="rating" name="rating" value="**">
+<label for="rating">★★</label>
+<input type="radio" id="rating" name="rating" value="***">
+<label for="rating">★★★</label>
+<input type="radio" id="rating" name="rating" value="****">
+<label for="rating">★★★★</label>
+<input type="radio" id="rating" name="rating" value="*****">
+<label for="rating">★★★★★</label>
+<br>
+<label for="review">Review of the movie:</label>
+<br>
+<textarea id="review" name="Review" rows="5" cols="50" placeholder="Kindly write your review here"></textarea>
+<br>
+<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
